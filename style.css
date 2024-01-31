@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Abyssinica SIL', serif;
+    font-family: 'Montserrat', Medium;
 }
 
 /* home section */
@@ -14,6 +14,22 @@
 /* navbar */
 #navbar{
     background: linear-gradient(90deg, #3F8AFB 70%,  #ff9900 30%);
+}
+
+.follow {
+    margin-right: 10px;
+    color: #3F8AFB;
+    font-weight: bold;
+    margin-top: 3%;
+
+}
+
+.follow1 {
+    margin-right: 10px;
+    color: #3F8AFB;
+    font-weight: bold;
+    margin-top: 6%;
+
 }
 #logo{
     margin-left: 30px;
@@ -31,12 +47,11 @@
     font-weight: bold;
     color: #E04F66;
     font-size: 16px;
-    text-shadow: 1px 1px 1px black;
     letter-spacing: 2px;
     transition: 0.5s ease;
 }
 .nav-item .nav-link:hover{
-    color: #ff9900;
+    color: #3F8AFB;
 }
 #btncv{
     background: transparent;
@@ -48,8 +63,8 @@
 }
 @media screen and (max-width:991px){
     #btncv{
-        border: 2px solid #ff9900;
-        color: #ff9900;
+        border: 2px solid #3F8AFB;
+        color: #3F8AFB;
         margin-left: 20px;
     }
 }
@@ -86,15 +101,15 @@
 }
 .home .content h3{
     font-size: 50px;
-    color: rgb(170, 61, 61);
+    color: #df7081;
 }
 .home .content h3 span{
-    color: #ff9900;
+    color: #e36d7f;
     font-weight: bold;
 }
 .changecontent::after{
     content: ' ';
-    color: #ff9900;
+    color: #E14F66;
     font-weight: bold;
     font-size: 40px;
     animation: changetext 20s infinite linear;
@@ -116,12 +131,12 @@
     letter-spacing: 2px;
 }
 #btn1{
-    width: 150px;
-    height: 30px;
+    width: 200px;
+    height: 70px;
     letter-spacing: 3px;
     border-radius: 5px;
-    color: #ff9900;
-    border: 2px solid #ff9900;
+    color: white;
+    border: 2px solid white;
     background: transparent;
     margin-top: 20px;
     font-weight: bold;
@@ -129,8 +144,8 @@
     cursor: pointer;
 }
 #btn1:hover{
-    background-color: #ff9900;
-    color: black;
+    background-color: #E14F66;
+    color: white;
 }
 @media screen and (max-width:844px){
     .home-section{
@@ -174,12 +189,12 @@
     align-items: center;
 }
 #about .card img{
-    background-color: #ff9900;
+    background-color: #fefefe;
     border: 2px solid black;
 }
 #about h3{
     color: white;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid #ffffff;
     width: 150px;
 }
 #about h5{
@@ -195,7 +210,7 @@
 }
 #about h2 span{
     font-size: 15px;
-    color: #ff9900;
+    color: #fafafa;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -211,7 +226,7 @@
     cursor: pointer;
 }
 #btncv2:hover{
-    background-color: #ff9900;
+    background-color: #ffffff;
 }
 @media screen and (max-width:987px){
     #about p{
@@ -248,14 +263,14 @@
     width: 130px;
     padding-top: 130px;
     color: white;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid #ffffff;
 }
 #services .card{
     transition: 0.5s ease;
     cursor: pointer;
 }
 #services .card:hover{
-    background-color: #ff9900;
+    background-color: #ffffff;
 }
 #services p{
     color: white;
@@ -278,7 +293,7 @@
 .hr{
     width: 100%;
     height: 1px;
-    background-color: #ff9900;
+    background-color: #fdfdfd;
 }
 
 
@@ -298,11 +313,11 @@
     color: white;
 }
 #resume h3 i{
-    color: #ff9900;
+    color: #fefefe;
 }
 #resume h3{
     color: white;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid #ffffff;
     width: 170px;
     margin-top: 30px;
 }
@@ -317,7 +332,7 @@
     letter-spacing: 2px;
 }
 #resume i{
-    color: #ff9900;
+    color: #eb4386;
 }
 @media screen and (max-width:767px){
     #resume{
@@ -394,11 +409,11 @@
 #contact{
     width: 100%;
     height: 100vh;
-    background-color: #3F8AFB;
+    background-color: #ee9ecae3;
 }
 #contact h1{
     color: white;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid #ffffff;
     width: 210px;
     padding-top: 100px;
 }
@@ -410,14 +425,14 @@
     margin-top: 30px;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid #ffffff;
 }
 #contact ::placeholder{
-    color: white;
+    color: rgb(249, 249, 249);
 }
 #contact textarea{
     background: transparent;
-    border: 2px solid #ff9900;
+    border: 2px solid #ffffff;
     margin-top: 20px;
     color: white;
 }
@@ -427,12 +442,12 @@
     letter-spacing: 3px;
     font-weight: bold;
     background: transparent;
-    color: #ff9900;
-    border: 2px solid #ff9900;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     margin-top: 30px;
 }
 #contact i{
-    color: #ff9900;
+    color: #ffffff;
     margin-top: 30px;
     margin-left: 7px;
     font-size: 20px;
@@ -494,7 +509,7 @@
 }
 #footer h1{
     color: white;
-    text-shadow: 0px 1px 1px black;
+   
     padding-top: 30px;
 }
 #footer p{
@@ -502,7 +517,7 @@
     text-shadow: 0px 0px 1px;
 }
 .icons i{
-    text-shadow: 1px 1px 1px black;
+   
     font-size: 20px;
     margin-left: 10px;
     cursor: pointer;
@@ -510,12 +525,10 @@
 .copyright{
     color: white;
     margin-top: 20px;
-    text-shadow: 1px 1px 1px black;
-}
+    
 .credite{
     color: white;
-    text-shadow: 1px 1px 1px black;
-}
+   
 /* footer */
 
 

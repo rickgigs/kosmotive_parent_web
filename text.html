@@ -1,57 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Alternation Animation</title>
-    <style>
-        #output {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px 0;
-            font-family: Arial, sans-serif;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="5;url=your_destination_page.html">
+  <title>Redirecting...</title>
 </head>
 <body>
-
-<center><div id="output" style="color: aqua;"></div></center>
-
-<script>
-    function alternateText(textArray, delay) {
-        const outputElement = document.getElementById('output');
-        let currentIndex = 0;
-        let currentText = '';
-        let isDeleting = false;
-
-        function animateText() {
-            const text = textArray[currentIndex];
-            if (isDeleting) {
-                currentText = text.substring(0, currentText.length - 1);
-            } else {
-                currentText = text.substring(0, currentText.length + 1);
-            }
-
-            outputElement.innerText = currentText;
-
-            if (!isDeleting && currentText === text) {
-                isDeleting = true;
-                setTimeout(animateText, delay);
-            } else if (isDeleting && currentText === '') {
-                isDeleting = false;
-                currentIndex = (currentIndex + 1) % textArray.length;
-                setTimeout(animateText, delay);
-            } else {
-                setTimeout(animateText, 50); // Adjust typing and deleting speed (in milliseconds)
-            }
-        }
-
-        animateText();
-    }
-
-    // Example usage
-    alternateText(['KosmoPads', 'KosmoHealth', 'Third Text'], 2000);
-</script>
-
+  <p>If you are not redirected, <a href="https://kosmo.speclucs.rw">click here</a>.</p>
 </body>
 </html>
