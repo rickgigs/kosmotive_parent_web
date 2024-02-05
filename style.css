@@ -429,32 +429,33 @@
 #contact{
     width: 100%;
     height: 100vh;
-    background-color: #ee9ecae3;
+    align-items: center;
+    background-color: #efe5e7d2;
 }
 #contact h1{
-    color: white;
-    border-bottom: 2px solid #ffffff;
+    color: #E14F66;
+    border-bottom: 2px solid #E14F66;
     width: 210px;
     padding-top: 100px;
 }
 #contact p{
-    color: white;
+    color: #E14F66;
 }
 #contact input{
     width: 420px;
     margin-top: 30px;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #E14F66;
 }
 #contact ::placeholder{
-    color: rgb(249, 249, 249);
+    color: #E14F66;
 }
 #contact textarea{
     background: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #E14F66;
     margin-top: 20px;
-    color: white;
+    color: #E14F66;
 }
 #btncontact{
     width: 420px;
@@ -462,12 +463,12 @@
     letter-spacing: 3px;
     font-weight: bold;
     background: transparent;
-    color: #ffffff;
-    border: 2px solid #ffffff;
+    color: #E14F66;
+    border: 2px solid #E14F66;
     margin-top: 30px;
 }
 #contact i{
-    color: #ffffff;
+    color: #E14F66;
     margin-top: 30px;
     margin-left: 7px;
     font-size: 20px;

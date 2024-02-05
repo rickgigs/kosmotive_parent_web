@@ -211,13 +211,7 @@
                     <i class="fa-solid fa-phone"> <span>(+250) 785 999 950</span></i>
                     <i class="fa-solid fa-house"> <span>Kimironko , Kigali</span></i>
 
-                    <!-- <div class="social-links">
-                        <i class="fa-brands fa-twitter" style="color: rgb(0, 153, 255);"></i>
-                        <i class="fa-brands fa-facebook-f" style="color: rgb(52, 85, 148);"></i>
-                        <i class="fa-brands fa-youtube" style="color: red;"></i>
-                        <i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i>
-                        <i class="fa-brands fa-instagram" style="color: rgb(230, 41, 104);"></i>
-                    </div> -->
+                    
                 </div>
             </div>
         </div>
@@ -229,49 +223,53 @@
 
 
 
-    <!-- footer -->
+    <!-- footer1 -->
     <footer id="footer">
-      <div class="footer-section">
-        <div class="section">
-          <h2 style="background-color: #3F8AFB;">Content</h2>
-          <p>Your content here...</p>
-        </div>
+      <div class="footer-section logo-section">
+        <img src="image/kosmotivefooter1.jpg" alt="Logo" style="height: 120px ; width: 200px; text-align: left;">
+        <p>Your Logo and Content</p>
+      </div>
   
-        <div class="section">
-          <h2 style="background-color: #3F8AFB;">Social Media</h2>
-          <ul class="social-media-icons">
-            <li><h4>Twitter</h4></li>
-            <li><h4>Facebook</h4></li>
-            <li><h4>LinkedIn</h4></li>
-            <li><h4>Instagram</h4></li>
-          </ul>
-        </div>
+      <div class="footer-section contact-section">
+        <h4> Useful Link</h4>
+      
+        <p> <a href="#">Services</a></p>
+        <p> <a href="#">FAQ</a></p>
+        <p> <a href="#">Contact </a></p>
+       
+      </div>
   
-        <div class="section">
-          <h2 style="background-color: #3F8AFB; box-sizing: border-box; border: 2px;">Contact Us</h2>
-          <ul style="text-align: center;">
-            <li><a href="">KG 19 Ave,House N09 Kimironko Kigali</a></li>
-            <li><a href="">+250 780 315 562</a></li>
-            <li><a href="">+250 786 305 924</a></li>
-            <li><a href="">info@kosmohealth.rw</a> </li>
-          </ul>
-        </div>
-        <div class="section">
-          <h2 style="background-color: #3F8AFB;">Useful Links</h2>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
+      <div class="footer-section address-section">
+        <h4>Address</h4>
+        <p>KG 19 Ave,House N09 Kimironko Kigali</p>
+        <p>+250 780 315 562</p>
+        <p>+250 786 305 924</p>
+      </div>
+  
+      <div class="footer-section address-section">
+        <h4>Social Media</h4>
+        <p> Twitter</p>
+        <p>Facebook</p>
+        <p>Instagram</p>
       </div>
     </footer>
-    <!-- footer -->
+    <footer>
+      <div class="footer-links">
+        &copy; 2024 Kosmotive. All rights reserved.
+      </div>
+  
+      <div class="footer-links">
+        <a href="#">Terms of Service</a> |
+        <a href="#">Privacy Policy</a>
+      </div>
 
-    <!-- CSS of Footer-->
+    </footer>
+    <!-- footer1 -->
+
+
+
+
+    <!-- CSS of Footer1-->
     <style>
       .footer-section{
     margin-left: 50px;
@@ -294,44 +292,76 @@
       }
   
       footer {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-  
-      .footer-section {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-  
-      .section {
-        flex: 1;
-        margin: 10px;
-      }
-  
-      h2 {
-        color: #fff;
-      }
-  
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-  
-      ul li {
-        margin-bottom: 8px;
-      }
-  
-      .social-media-icons {
-        font-size: 24px;
-      }
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-section {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    .logo-section img {
+      width: 100px; /* Adjust the width as needed */
+    }
+
+    .contact-section, .address-section, .social-media-section {
+      text-align: left;
+    }
+
+    .social-media-section a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
     </style>
 
-     <!-- CSS of Footer-->
+     <!-- CSS of Footer1-->
+
+     <!-- CSS of footer2 -->
+     <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+      }
+  
+      .content {
+        flex: 1;
+        box-sizing: border-box;
+        padding: 20px;
+      }
+  
+      footer {
+        background-color: #D67083;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        width: 100%;
+      }
+  
+      .copyright {
+        font-size: 14px;
+      }
+  
+      .footer-links {
+        display: flex;
+        gap: 20px;
+      }
+  
+      .footer-links a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+     <!-- CSS of footer2 -->
 
 
 
