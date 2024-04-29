@@ -229,9 +229,82 @@ section{
     </section>
     <!-- home content -->
 
+<style>
+   .stats-container123 {
+        max-width: 800px;
+        margin: 50px auto;
+        text-align: center;
+    }
 
+    .stat-item123 {
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
+    .stat-number123 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .stat-label123 {
+        font-size: 18px;
+        color: #666;
+    }
+</style>
+  <script>
+      function countNumbers() {
+          const happyClients = document.getElementById('happyClients');
+          const donationPads = document.getElementById('donationPads');
+          const ngoDonations = document.getElementById('ngoDonations');
+          const districtsDonated = document.getElementById('districtsDonated');
+
+          const happyClientsCount = 1500; // Example number of happy clients
+          const donationPadsCount = 500; // Example number of donation pads
+          const ngoDonationsCount = 10; // Example number of NGOs donated to
+          const districtsDonatedCount = 25; // Example number of districts donated to
+
+          let counter = 0;
+          const interval = setInterval(() => {
+              happyClients.querySelector('.stat-number123').textContent = counter;
+              donationPads.querySelector('.stat-number123').textContent = counter;
+              ngoDonations.querySelector('.stat-number123').textContent = counter;
+              districtsDonated.querySelector('.stat-number123').textContent = counter;
+              counter++;
+              if (counter > happyClientsCount) {
+                  clearInterval(interval);
+              }
+          }, 10);
+      }
+
+      window.addEventListener('load', countNumbers);
+  </script>
     <!-- contact -->
+    <section>
+
+      <div class="stats-container123">
+        <div class="stat-item123" id="happyClients">
+            <div class="stat-number123">15</div>
+            <div class="stat-label123">Happy Clients</div>
+        </div>
+        <div class="stat-item123" id="donationPads">
+            <div class="stat-number123">400</div>
+            <div class="stat-label123">Donation Pads</div>
+        </div>
+        <div class="stat-item123" id="ngoDonations">
+            <div class="stat-number123">700</div>
+            <div class="stat-label123">NGOs Donated</div>
+        </div>
+        <div class="stat-item123" id="districtsDonated">
+            <div class="stat-number123">0</div>
+            <div class="stat-label123">Districts Donated</div>
+        </div>
+    </div>
+  </section>
     <div id="contact">
         <div class="container" style="padding-top: 30px;"  data-aos="fade-up"
            data-aos-duration="1500">
@@ -301,6 +374,30 @@ section{
 <div class="row">
   <div class="logo-container12">
     <div class="logo-item12">
+      <img src="logo/new/new1.jpeg" alt="Company 1 Logo">
+  </div>
+  <div class="logo-item12">
+    <img src="logo/new/new4.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/new6.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/new8.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/new98.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/WhatsApp Image 2024-04-29 at 17.03.44.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/WhatsApsdp Image 2024-04-29 at 17.03.44.jpeg" alt="Company 1 Logo">
+</div>
+<div class="logo-item12">
+  <img src="logo/new/werty.jpeg" alt="Company 1 Logo">
+</div>
+    <div class="logo-item12">
         <img src="logo/aaa.jpeg" alt="Company 1 Logo">
     </div>
     <div class="logo-item12">
@@ -348,12 +445,7 @@ section{
 <div class="logo-item12">
   <img src="logo/UNDP-logo2.jpeg" alt="Company 4 Logo">
 </div>
-<div class="logo-item12">
-  <img src="#" alt="Company 4 Logo">
-</div>
-<div class="logo-item12">
-  <img src="#" alt="Company 4 Logo">
-</div>
+
   
 </div>
 
