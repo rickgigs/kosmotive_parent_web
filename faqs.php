@@ -15,6 +15,9 @@
     />
   </head>
   <body>
+    <?php
+include("include/menu.html");
+    ?>
     <div class="wrapper">
       <p>The Begninning of a New Asset class</p>
       <h1>Frequently Asked Questions</h1>
