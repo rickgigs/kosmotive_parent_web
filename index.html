@@ -263,19 +263,19 @@ section{
           const happyClients = document.getElementById('happyClients');
           const donationPads = document.getElementById('donationPads');
           const ngoDonations = document.getElementById('ngoDonations');
-          const districtsDonated = document.getElementById('districtsDonated');
+        
 
           const happyClientsCount = 1500; // Example number of happy clients
           const donationPadsCount = 500; // Example number of donation pads
           const ngoDonationsCount = 10; // Example number of NGOs donated to
-          const districtsDonatedCount = 25; // Example number of districts donated to
+         
 
           let counter = 0;
           const interval = setInterval(() => {
               happyClients.querySelector('.stat-number123').textContent = counter;
               donationPads.querySelector('.stat-number123').textContent = counter;
               ngoDonations.querySelector('.stat-number123').textContent = counter;
-              districtsDonated.querySelector('.stat-number123').textContent = counter;
+;
               counter++;
               if (counter > happyClientsCount) {
                   clearInterval(interval);
@@ -301,10 +301,7 @@ section{
             <div class="stat-number123">700</div>
             <div class="stat-label123">NGOs Donated</div>
         </div>
-        <div class="stat-item123" id="districtsDonated">
-            <div class="stat-number123">0</div>
-            <div class="stat-label123">Districts Donated</div>
-        </div>
+       
     </div>
   </section>
     <div id="contact">
